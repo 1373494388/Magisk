@@ -1,24 +1,24 @@
-# Magisk Changelog
+#Magisk Changelog
 
-### v26.3
+###v26.3
 
-- [General] Fix device information detection script
-- [General] Update BusyBox to 1.36.1
-- [General] Update toolchain that produces broken arm32 executables
-- [App] Fix root service unable to bind on OnePlus devices
+- [一般的]修复设备信息检测脚本
+- [一般的]将BusyBox更新为1.36.1
+- [一般的]更新工具链，生成中断的arm32可执行文件
+- [应用程序]修复根服务无法绑定到OnePlus设备
 
-### v26.2
+###v26.2
 
-- [MagiskBoot] Support extracting boot image from `payload.bin`
-- [MagiskBoot] Support cpio files containing character files
-- [MagiskBoot] Support listing cpio content
-- [MagiskBoot] Directly handle AVB 1.0 signing and verification without going through Java implementation
-- [Daemon] Make daemon socket a fixed path in MAGISKTMP
-- [resetprop] Support printing property context
-- [resetprop] Support only printing persistent properties from storage
-- [resetprop] Properly support setting persistent properties bypassing property_service
-- [MagiskSU] Support `-g` and `-G` options
-- [MagiskSU] Support switching mount namespace to PID with `-t`
+- [MagiskBoot]支持从提取启动映像`payload.bin`
+- [MagiskBoot]支持包含字符文件的cpio文件
+- [MagiskBoot]支持列出cpio内容
+- [MagiskBoot]直接处理AVB1.0签名和验证，无需经过Java实现
+- [守护程序]在MAGISKTMP中将守护程序套接字设置为固定路径
+- [resetprop]支持打印属性上下文
+- [resetprop]仅支持从存储打印永久属性
+- [resetprop]正确支持设置永久属性绕过property_service
+- [MagiskSU]支持`-g`和`-g`选项
+- [MagiskSU]支持将装载命名空间切换到PID`-t`
 - [MagiskPolicy] Fix patching extended permissions
 - [MagiskPolicy] Support more syntax for extended permissions
 - [MagiskPolicy] Support printing out the loaded sepolicy rules
